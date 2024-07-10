@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp.API", "ChatApp.API\ChatApp.API.csproj", "{28A705AC-F663-433D-9A0E-9E8F64C65390}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A71BED4-D982-4767-AB75-EF7CC0A2A302} = {4A71BED4-D982-4767-AB75-EF7CC0A2A302}
+		{577BF5BF-8E3B-4B1D-8CFF-7D3D288F476C} = {577BF5BF-8E3B-4B1D-8CFF-7D3D288F476C}
+		{6ABE067C-2DB3-4CA8-BEA1-043C9812A9F5} = {6ABE067C-2DB3-4CA8-BEA1-043C9812A9F5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp.Infrastructure", "ChatApp.Infrastructure\ChatApp.Infrastructure.csproj", "{4A71BED4-D982-4767-AB75-EF7CC0A2A302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp.Core", "ChatApp.Core\ChatApp.Core.csproj", "{577BF5BF-8E3B-4B1D-8CFF-7D3D288F476C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp.Tests", "ChatApp.Tests\ChatApp.Tests.csproj", "{6ABE067C-2DB3-4CA8-BEA1-043C9812A9F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A705AC-F663-433D-9A0E-9E8F64C65390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A705AC-F663-433D-9A0E-9E8F64C65390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A705AC-F663-433D-9A0E-9E8F64C65390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A705AC-F663-433D-9A0E-9E8F64C65390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A71BED4-D982-4767-AB75-EF7CC0A2A302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A71BED4-D982-4767-AB75-EF7CC0A2A302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A71BED4-D982-4767-AB75-EF7CC0A2A302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A71BED4-D982-4767-AB75-EF7CC0A2A302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577BF5BF-8E3B-4B1D-8CFF-7D3D288F476C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577BF5BF-8E3B-4B1D-8CFF-7D3D288F476C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577BF5BF-8E3B-4B1D-8CFF-7D3D288F476C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577BF5BF-8E3B-4B1D-8CFF-7D3D288F476C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABE067C-2DB3-4CA8-BEA1-043C9812A9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABE067C-2DB3-4CA8-BEA1-043C9812A9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABE067C-2DB3-4CA8-BEA1-043C9812A9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABE067C-2DB3-4CA8-BEA1-043C9812A9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
